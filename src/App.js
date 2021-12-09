@@ -1,6 +1,6 @@
 import { Component } from 'react';
 import { CardList } from './components/card-list/card-list.component';
-import './App.css';
+import './index.css';
 import { Search } from './components/search-box/search.component';
 
 class App extends Component {
@@ -34,7 +34,7 @@ class App extends Component {
     return (
       <div className="App">
 
-        <h1 style={{ margin: 100 }}>Monster Rolodex</h1>
+        <h1>Monster Rolodex</h1>
 
         <Search
           type="search"

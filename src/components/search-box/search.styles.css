@@ -1,11 +1,26 @@
 .search {
-    -webkit-appearance: none;
-    border: none;
-    border-radius: 5px;
-    outline: none;
-    padding: 1rem 1.5rem;
-    width: 650px;
-    line-height: 30px;
-    margin-bottom: 30px;
-    font-size: 1.2rem;
+  -webkit-appearance: none;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  padding: 1rem 1.5rem;
+  width: 650px;
+  line-height: 30px;
+  margin-bottom: 30px;
+  font-size: 1.2rem;
+}
+
+@media only screen and (max-width: 900px) {
+  .search {
+    width: 480px;
+    padding: 0.8em;
+    margin: 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .search {
+    width: 280px;
+    padding: 0.5em 0.8em;
+  }
 }
